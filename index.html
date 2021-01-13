@@ -5,17 +5,19 @@
     <title>Résumé</title>
     <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <main>
       <article>
-        <div class="page" style="border-color: red;">
+        <div class="page animate__animated animate__tada" style="border-color: red;">
           <div class="stackable grid">
             <div class="row">
               <div class="three wide center aligned column">
-                <div class="avatar-wrapper">
-                  <object class="avatar" data="./assets/images/avatar.png" role="img" aria-label="My profile picture"></object>
+                <div id="avatar-wrapper" class="avatar-wrapper">
+                  <object id="avatar" class="avatar" data="./assets/images/ken-avatar.jpg" role="img" aria-label="My profile picture"></object>
                 </div>
+                <button id="ken-button" class="ken-button">FIGHT KEN??!</button>
               </div>
               <div class="thirteen wide column">
                 <div class="stackable grid">
@@ -199,5 +201,6 @@
         </div>
       </article>
     </main>
+    <script src="scripts/fight.js"></script>
   </body>
 </html>
