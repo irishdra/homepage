@@ -1,0 +1,26 @@
+main {
+    background-color: #ff6969;
+}
+
+.ken-button {
+    height: 20%;
+    width: 80%;
+    margin-top: 20%;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    outline: none;
+}
+
+.ken-button:hover {
+    background-color: red;
+    color: white;
+}
+
+.skill-image {
+    position: absolute;
+    z-index: 100;
+    top: 10%;
+}
