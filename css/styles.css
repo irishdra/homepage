@@ -9,7 +9,6 @@ main {
     background-color: white;
     color: red;
     border: 2px solid red;
-    -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     outline: none;
 }
